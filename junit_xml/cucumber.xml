@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="150.084481">
-    <testcase classname="FreeCRM Deals" name="Deals Create Scenrios" time="150.084481">
-        <system-out><![CDATA[Given user is already on Login Page.........................................passed
-When title of login page is Free CRM........................................passed
-Then user enter username and password.......................................passed
-Then user clicks on login button............................................passed
-Then user is on home page...................................................passed
-Then user clicked delas links...............................................passed
-Then user created delas data................................................passed
-Then close the browser......................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.259118">
+    <testcase classname="Test Tagged Hooks" name="This is First test" time="0.256715">
+        <system-out><![CDATA[Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Tagged Hooks" name="This is Second test" time="0.001257">
+        <system-out><![CDATA[Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Tagged Hooks" name="This is Third test" time="0.001146">
+        <system-out><![CDATA[Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
