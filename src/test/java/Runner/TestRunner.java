@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\Users\\GOPAL NAMASIVAYAM\\Desktop\\ecli\\FreeCRMBddFramework\\src\\test\\java\\Features\\delas.feature",//the path of the feature files
+		features = "C:\\Users\\GOPAL NAMASIVAYAM\\Desktop\\ecli\\FreeCRMBddFramework\\src\\test\\java\\Features\\dealswithMAP.feature",//the path of the feature files
 		glue={"StepDefinition"},
 		format= {"pretty","html:test-outout", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"}, //to generate different types of reporting
 				monochrome = true, //display the console output in a proper readable format
