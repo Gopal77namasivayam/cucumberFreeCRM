@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Deals Create Scenrios",
+        "description": "",
+        "id": "freecrm-deals;deals-create-scenrios",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14923493183,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "DealsStepDefinition.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2138993102,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "DealsStepDefinition.title_of_the_login_page_is_freecrm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 426665473,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter username and password",
+            "match": {
+              "location": "DealsStepDefinition.user_enter_usernameand_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "batchautomation",
+                  "Test@12345"
+                ],
+                "line": 6
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8310090427,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "DealsStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15944862,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on home page",
+            "match": {
+              "location": "DealsStepDefinition.user_in_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8670292747,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicked delas links",
+            "match": {
+              "location": "DealsStepDefinition.user_clicked_contacts_links()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 995207461,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user created delas data",
+            "match": {
+              "location": "DealsStepDefinition.user_enters_contacts_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "test deal",
+                  "1000",
+                  "50",
+                  "10"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 783542641,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "DealsStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Deals",
+    "description": "",
+    "id": "freecrm-deals",
+    "keyword": "Feature",
+    "uri": "C:/Users/GOPAL NAMASIVAYAM/Desktop/ecli/FreeCRMBddFramework/src/test/java/Features/delas.feature"
+  }
+]
